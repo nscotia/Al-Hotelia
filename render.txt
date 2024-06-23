@@ -1,0 +1,27 @@
+HOSTNAME
+dpg-cpq4k7aj1k6c73e4g7s0-a
+
+PORT
+5432
+
+DATABASE
+database_5f2c
+
+USERNAME
+user_name
+
+PASSWORD
+7XpurrbCJLRa3gAop5kQPHx2NXfAwBtE
+
+Internal Database URL
+postgres://user_name:7XpurrbCJLRa3gAop5kQPHx2NXfAwBtE@dpg-cpq4k7aj1k6c73e4g7s0-a/database_5f2c
+
+
+External Database URL
+postgres://user_name:7XpurrbCJLRa3gAop5kQPHx2NXfAwBtE@dpg-cpq4k7aj1k6c73e4g7s0-a.frankfurt-postgres.render.com/database_5f2c
+
+psqlCOMMAND
+PGPASSWORD=7XpurrbCJLRa3gAop5kQPHx2NXfAwBtE psql -h dpg-cpq4k7aj1k6c73e4g7s0-a.frankfurt-postgres.render.com -U user_name database_5f2c
+
+link of flask in deployment
+https://one-cb6z.onrender.com
